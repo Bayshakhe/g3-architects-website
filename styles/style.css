@@ -224,10 +224,13 @@ nav li a:hover{
     footer section design 
     ---------------*/
     footer{
+        margin: 40px 240px;
+    }
+    .footer-text{
         background-color: #131313;
         color: white;
-        padding: 40px 240px;
         text-align: center;
+        padding: 30px;
     }
 
 
@@ -239,6 +242,9 @@ nav li a:hover{
     }
     section{
         padding: 20px;
+    }
+    .section-title{
+        font-size: 40px;
     }
     .navbar{
         flex-direction: column;
@@ -270,6 +276,9 @@ nav li a:hover{
         position: relative;
         left: 0;
     }
+    .facts{
+        margin-top: 50px;
+    }
     .cards{
         flex-direction: column;
         gap: 20px;
@@ -278,11 +287,15 @@ nav li a:hover{
         width: 70%;
         margin: 0 auto;
     }
+    .sponspors{
+        margin-top: 50px;
+    }
     .companies{
         flex-direction: column;
         flex-wrap: nowrap;
     }
     .contact{
+        padding-top: 50px;
         text-align: left;
     }
     input, textarea{
@@ -295,7 +308,8 @@ nav li a:hover{
         margin-left: 0;
     }
     footer{
-        padding: 30px;
+        margin: 20px;
+    }
 }
 
 
