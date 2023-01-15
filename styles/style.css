@@ -10,7 +10,11 @@ body{
     margin: 0 auto;
 }
 section{
-    padding: 20px 240px;
+    padding: 50px 240px 20px;
+}
+.description{
+    color: #727272;
+    margin: 10px 0 25px;
 }
 .primary-btn{
     background-color: #FF900E;
@@ -22,6 +26,12 @@ section{
     padding: 20px 25px;
     margin-bottom: 50px;
 }
+.black-text{
+    color: #131313;
+}
+.orange-text{
+    color: #FF900E;
+}
 
 /* header section design starts */
 header{
@@ -31,7 +41,6 @@ header{
     navbar section design 
     ---------------*/
 .navbar{
-    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -71,14 +80,27 @@ nav li a:hover{
     font-size: 64px;
     font-weight: 700;
 }
-.banner-description{
-    color: #727272;
-    margin: 10px 0 25px;
-}
 .banner-container img{
     width: 100%;
 }
 
+/* ----------------
+    feature section design 
+    ---------------*/
+    .feature-container{
+        display: flex;
+        gap: 70px;
+        align-items: center;
+    }
+    .feature-images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .feature-title{
+        font-size: 45px;
+        color: #727272;
+    }
 
 
 
@@ -108,5 +130,22 @@ nav li a:hover{
     }
     .banner-title{
         font-size: 55px;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+/* Responsive design for tablet device */
+@media screen and (min-width: 689px) and (max-width: 991px){
+    body{
+        width: 100%;
+    }
+    section{
+        padding: 20px;
     }
 }
