@@ -216,11 +216,18 @@ nav li a:hover{
         padding: 10px;
         font-size: 18px;
     }
-    input:focus{
-        border: 1px solid #FF900E;
-    }
     #submit-btn{
         width: 20%;
+    }
+
+    /* ----------------
+    footer section design 
+    ---------------*/
+    footer{
+        background-color: #131313;
+        color: white;
+        padding: 40px 240px;
+        text-align: center;
     }
 
 
@@ -287,6 +294,8 @@ nav li a:hover{
         width: 40%;
         margin-left: 0;
     }
+    footer{
+        padding: 30px;
 }
 
 
